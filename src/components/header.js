@@ -7,16 +7,16 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#0E0C38`,
-      color: `#fff`,
-      marginBottom: `1.45rem`,
     }}
   >
-    <div className="nav-title">Portfolio</div>
-    <ul>
-      <li>About</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
-    </ul>
+    <div className="layout-container">
+      <div className="nav-title">Portfolio</div>
+      <ul>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+    </div>
   </header>
 )
 

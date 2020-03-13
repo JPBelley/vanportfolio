@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
 
 html {
   font-family: 'Open Sans' sans-serif;
+  font-size: 62.5%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -200,7 +202,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  background-color: #040221;
+  color: #fff;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -232,8 +235,9 @@ h1 {
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+  letter-spacing: 0;
+  font-size: 15rem;
+  line-height: 14.6rem;
 }
 h2 {
   margin-left: 0;
@@ -601,6 +605,19 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+.layout-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.button {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 60px;
+  margin-right: 15px;
 }
 @media only screen and (max-width: 480px) {
   html {
