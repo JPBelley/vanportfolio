@@ -12,9 +12,9 @@ const Header = ({ siteTitle }) => (
     <div className="layout-container">
       <div className="nav-title">Portfolio</div>
       <ul>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li className="current"><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </header>
