@@ -3,7 +3,7 @@ import React from "react"
 import "./portfolio.scss"
 
 const Portfolio = () => (
-  <div className="portfolio">
+  <div className="portfolio" id="portfolio">
     <div className="layout-container">
       <h2 className="portfolio__title"> <div>Portfolio</div> </h2>
       <ul>
@@ -13,12 +13,12 @@ const Portfolio = () => (
         <li>Mobile Apps</li>
       </ul>
       <div className="portfolio__container">
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
-        <div className="portfolio__card"><img src="https://source.unsplash.com/random" alt="" /></div>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
+        <a href="https://www.google.com/" className="portfolio__card" target="_blank"><img src="https://source.unsplash.com/random" alt="" /></a>
       </div>
     </div>
   </div>

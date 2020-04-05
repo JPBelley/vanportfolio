@@ -1,0 +1,38 @@
+.skills {
+  background-color: #0E0C38;
+  padding: 100px 0;
+
+  .layout-container {
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+  }
+}
+
+.skills__title {
+  font-size: 4.3rem;
+  line-height: 7.7rem;
+  margin-bottom: 100px;
+
+  div {
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -60px;
+      left: 0;
+      width: 75%;
+      height: 2px;
+      margin: 0 auto;
+      background-color: #FFAA00;
+    }
+  }
+}
+
+.skills__description {
+  font-size: 30px;
+  line-height: 55px;
+}

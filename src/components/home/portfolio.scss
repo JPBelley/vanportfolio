@@ -62,5 +62,10 @@
     bottom: 0;
     left: 0;
     object-fit: cover;
+    transition: .4s cubic-bezier(0.33, 1, 0.68, 1);
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
