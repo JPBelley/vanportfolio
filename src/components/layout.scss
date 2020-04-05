@@ -65,7 +65,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 9rem;
   margin: 0.67em 0;
 }
 mark {
@@ -236,8 +236,8 @@ h1 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   letter-spacing: 0;
-  font-size: 15rem;
-  line-height: 14.6rem;
+  font-size: 9rem;
+  line-height: 12rem;
 }
 h2 {
   margin-left: 0;
@@ -609,17 +609,22 @@ pre tt:after {
 .layout-container {
   display: flex;
   margin: 0 auto;
+  padding: 0 90px;
   max-width: 1440px;
 }
 .layout-left {
-  width: 64%;
+  flex: 1;
 }
 .layout-right {
-  flex: 1;
+  min-width: 480px;
   margin-left: 50px;
   position: relative;
+  padding-top: 480px;
+  height: 0;
   
   img {
+    top: 0;
+    bottom: 0;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -641,4 +646,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.gold {
+  color: #FFAA00;
 }
