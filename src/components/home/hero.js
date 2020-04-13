@@ -19,8 +19,8 @@ const Hero = ({ siteTitle }) => (
           <li></li>
           <li></li>
         </ul>
-        <a className="button" href="">Hire me</a>
-        <a className="button" href="">Portfolio</a>
+        <a className="button button--gold" href="">Hire me</a>
+        <a className="button" href="">Download C.V.</a>
       </div>
       <div className="layout-right">
         <img src="https://source.unsplash.com/random" alt="" />

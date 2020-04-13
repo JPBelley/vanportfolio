@@ -1,6 +1,10 @@
 .portfolio {
-  padding: 150px 0;
+  padding: 50px 0;
   
+  @media (min-width: 800px) {
+    padding: 150px 0;
+  }
+
   .layout-container {
     flex-direction: column;
   }
@@ -43,8 +47,12 @@
 
 .portfolio__container {
   display: grid;
-  grid-gap: 60px;
-  grid-template-columns: repeat(3, [col] calc(33.33% - 40px) ) ;
+  grid-template-columns: repeat(1, [col] calc(100%) );
+
+  @media (min-width: 800px) {
+    grid-gap: 60px;
+    grid-template-columns: repeat(3, [col] calc(33.33% - 40px) );
+  }
 }
 
 .portfolio__card {
@@ -52,6 +60,10 @@
   padding-top: 100%;
   border-radius: 40px;
   overflow: hidden;
+
+  @media (max-width: 799px) {
+    margin-bottom: 30px;
+  }
   
   img {
     position: absolute;
@@ -64,8 +76,10 @@
     object-fit: cover;
     transition: .4s cubic-bezier(0.33, 1, 0.68, 1);
 
-    &:hover {
-      transform: scale(1.1);
+    @media (hover: hover) {
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
