@@ -675,3 +675,74 @@ pre tt:after {
 .gold {
   color: #FFAA00;
 }
+
+.top-line {
+        
+  &::after {
+    content: "";
+    position: absolute;
+    top: -100px;
+    right: 0;
+    left: 0;
+    width: 2px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #FFAA00;
+  }
+}
+
+// Forrm elements
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+
+  .button {
+    margin: 40px auto 0;
+  }
+}
+.input-container {
+  padding: 6px 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  
+  @media (min-width: 800px) {
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    font-family: 'Poppins', sans-serif;
+    
+    @media (min-width: 800px) {
+      font-size: 1.8rem;
+      padding: 15px;
+    }
+  }
+}
+
+.textarea-container {
+  width: 100%;
+  padding: 6px 4px;
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+    min-height: 200px;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    font-family: 'Poppins', sans-serif;
+
+    @media (min-width: 800px) {
+      font-size: 1.8rem;
+      padding: 15px;
+    }
+  }
+}

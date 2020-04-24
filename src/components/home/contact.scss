@@ -1,0 +1,28 @@
+.contact {
+  padding: 150px 0;
+  background-color: #040B33;
+
+  .layout-container {
+    position: relative;
+    flex-direction: column;
+  }
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 4.3rem;
+  line-height: 5.7rem;
+  margin: 0 auto;
+
+  &::after {
+    height: 130px;
+    top: -150px;
+  }
+}
+
+.contact__description {
+  margin: 30px auto 50px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

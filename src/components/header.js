@@ -21,10 +21,11 @@ const Header = ({ siteTitle }) => {
     >
       <div className="layout-container">
         <div className="nav-title">Portfolio</div>
+        <div className="burger"></div>
         <ul>
           <li className="current" ><a href="#">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>

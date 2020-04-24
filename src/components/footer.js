@@ -8,7 +8,7 @@ const Footer = ({ siteTitle }) => {
     <footer>
       <div className="layout-container">
 
-        <h2 className="footer__title">Portfolio</h2>
+        <h2 className="footer__title top-line">Portfolio</h2>
 
         <ul>
           <li>About</li>

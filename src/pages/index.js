@@ -9,15 +9,17 @@ import Hero from "../components/home/hero"
 import About from "../components/home/about"
 import Portfolio from "../components/home/portfolio"
 import Skills from "../components/home/skills"
+import Contact from "../components/home/contact"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     
     <Hero />
-    <About />
+    {/* <About /> */}
     <Portfolio />
     <Skills />
+    <Contact />
   </Layout>
 )
 
